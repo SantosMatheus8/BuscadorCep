@@ -8,7 +8,7 @@ const Texto = (props) =>
       <h1>{props.text}</h1>
       <div className="inputIcon-container">
         <input type="text" placeholder={props.placeholder} onChange={props.change}/>
-        <button class='container__botaoBusca' onClick={props.clique}>
+        <button className='container__botaoBusca' onClick={props.clique}>
           <FiSearch size='15px' color='white' />
         </button>
       </div>
