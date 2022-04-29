@@ -8,11 +8,18 @@ h1
 div input
 {
   border: 0;
-  background-color: rgba(173, 173, 173, 0.53);
+  background-color: rgba(173, 173, 173, 0.40);
   border-radius: 4px;
+  box-shadow: 0 3px 8px black;
+  color: white;
   font-size: 1rem;
   padding: 0.6rem;
   outline: none;
+}
+
+div input::placeholder
+{
+  color: rgb(220, 220, 220);
 }
 
 .inputIcon-container
@@ -21,10 +28,17 @@ div input
   position: relative;
 }
 
-#icone
+.container__botaoBusca
 {
-  bottom: 11px;
-  cursor: text;
+  bottom: 9px;
+  border : 0;
+  background-color: transparent;
+  cursor: pointer;
   left: 190px;
   position: absolute;
+  transition: 0.5s;
+}
+.container__botaoBusca:hover
+{
+  transform: scale(1.5);
 }
