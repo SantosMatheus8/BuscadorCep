@@ -1,23 +1,16 @@
 import { FiSearch } from 'react-icons/fi';
-import styled from 'styled-components'
-
+import '../css/texto.css'
 
 const Texto = (props) => 
 {
   return (
     <>
       <h1>{props.text}</h1>
-      <div>
+      <div className="inputIcon-container">
         <input type="text" placeholder={props.placeholder} />
-        <FiSearch size='15px' color='black'/>
+        <FiSearch size='15px' color='white' id='icone'/>
       </div>
     </>)
-}
+} 
+
 export default Texto;
-
-// //  = styled.h1`
-//   h1{
-//       color: 'red';
-//   }
-
-// `

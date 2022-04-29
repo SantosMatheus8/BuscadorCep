@@ -1,0 +1,30 @@
+h1
+{
+  color: white;
+  font-size: 3.5rem;
+  margin: 1rem;
+}
+
+div input
+{
+  border: 0;
+  background-color: rgba(173, 173, 173, 0.53);
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: 0.6rem;
+  outline: none;
+}
+
+.inputIcon-container
+{
+  margin: 1rem;
+  position: relative;
+}
+
+#icone
+{
+  bottom: 11px;
+  cursor: text;
+  left: 190px;
+  position: absolute;
+}
